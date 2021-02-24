@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BEA5685-B09F-49DD-A305-4C12C8F323D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{4589A23B-1AE9-4F39-98A8-523D04BD705D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DictionaryWindowController.cs = src\Controllers\DictionaryWindowController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{03A15631-DE6D-4D8E-AC5C-556B1ACC9E8B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DictionaryWindowSearchModel.cs = src\Models\DictionaryWindowSearchModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{AA7E08E0-0386-4378-AE9A-8278F440E805}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\DictionaryWindow.xaml = src\View\DictionaryWindow.xaml
+		src\View\DictionaryWindow.xaml.cs = src\View\DictionaryWindow.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{626FCE2B-5487-474A-B0D0-9E76A60345C1}"
+	ProjectSection(SolutionItems) = preProject
+		src\ViewModel\DictionaryWindowViewModel.cs = src\ViewModel\DictionaryWindowViewModel.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Controls.Dictionary.DictionaryWindow(dotNet)", "dotNet\Atomus.Windows.Controls.Dictionary.DictionaryWindow(dotNet).csproj", "{8C39F17B-CDC6-43EF-8052-3B43FD1BFB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C39F17B-CDC6-43EF-8052-3B43FD1BFB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C39F17B-CDC6-43EF-8052-3B43FD1BFB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C39F17B-CDC6-43EF-8052-3B43FD1BFB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C39F17B-CDC6-43EF-8052-3B43FD1BFB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4589A23B-1AE9-4F39-98A8-523D04BD705D} = {6BEA5685-B09F-49DD-A305-4C12C8F323D2}
+		{03A15631-DE6D-4D8E-AC5C-556B1ACC9E8B} = {6BEA5685-B09F-49DD-A305-4C12C8F323D2}
+		{AA7E08E0-0386-4378-AE9A-8278F440E805} = {6BEA5685-B09F-49DD-A305-4C12C8F323D2}
+		{626FCE2B-5487-474A-B0D0-9E76A60345C1} = {6BEA5685-B09F-49DD-A305-4C12C8F323D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D99FDF9-3F9A-480E-A390-9623C6D70CD4}
+	EndGlobalSection
+EndGlobal
